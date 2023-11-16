@@ -1,0 +1,63 @@
+a:link { color: #666; text-decoration: none;}
+a:visited { color: #666; }
+a:hover { color: red; }
+a:active { color: red; }
+
+h1 {
+  color: rosybrown;
+  text-align: center;
+}
+
+header {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header> :first-child {
+  float: left;
+}
+
+header h2 {
+  line-height: 2rem;
+}
+
+header> :nth-child(2) {
+  float: right;
+}
+
+header hr {
+  clear: both;
+  border: 0.5px solid #ccc;
+  margin-top: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+nav li{
+  line-height: 2rem;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+footer {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  text-align: center;
+}
